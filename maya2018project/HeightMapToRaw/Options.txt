@@ -4,7 +4,7 @@
 
 You have selected to use Maya 2018
 
-Vendor Name is: (C)Ikeuchi Hideo
+Vendor Name is: (C)Ohtorii
 
 Verbose Comments OFF
 

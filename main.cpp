@@ -376,7 +376,7 @@ MStatus HeigtmapToRaw::Main(const MArgList &args)
 /////////////////////////////////////////////////////////////////////////////
 MStatus initializePlugin(MObject _obj)
 {
-	MFnPlugin	plugin(_obj, "(C)Ikeuchi Hideo.", "0.2.0","4.5");
+	MFnPlugin	plugin(_obj, "(C)Ohtorii", "0.2.0","4.5");
 	MStatus		stat;
 	stat = plugin.registerCommand(COMMAND_NAME, HeigtmapToRaw::creator, HeigtmapToRaw::cmdSyntax);
 	if (!stat) {
